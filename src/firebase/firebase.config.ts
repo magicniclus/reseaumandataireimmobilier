@@ -3,7 +3,7 @@ import { getDatabase } from "firebase/database";
 
 // Configuration de Firebase pour terabois
 const firebaseConfig = {
-  apiKey: "AIzaSyCotU40WMv8MymTSJLFe7PPKN9AEV12Q30",
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
   authDomain: "terabois-275d5.firebaseapp.com",
   databaseURL:
     "https://terabois-275d5-default-rtdb.europe-west1.firebasedatabase.app",
