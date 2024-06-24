@@ -55,6 +55,20 @@ const Hero = () => {
 
     try {
       await set(ref(database, "submissions/" + Date.now()), formData);
+      await fetch("/api/email", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          nom: formData.name,
+          codePostal: formData.postalCode,
+          email: formData.email,
+          telephone: formData.phone,
+          type: formData.role,
+          date: new Date().toLocaleString(),
+        }),
+      }).then((response) => {});
       router.push("/merci");
     } catch (error) {
       console.error("Error saving data to Firebase:", error);
