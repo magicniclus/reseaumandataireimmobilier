@@ -148,7 +148,9 @@ const Hero = () => {
             onSubmit={handleSubmit}
             className="bg-white rounded-lg p-5 md:p-10 w-full md:w-[90%]"
           >
-            <h2 className="text-2xl">Demandez votre devis</h2>
+            <h2 className="text-2xl text-slate-700 font-bold">
+              Demandez votre devis
+            </h2>
             <Input
               name="name"
               placeholder="Nom"
