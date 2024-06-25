@@ -3,7 +3,7 @@ import { CheckIcon } from "@heroicons/react/20/solid";
 /* eslint-disable @next/next/no-img-element */
 const Beneficies = () => {
   return (
-    <section className="w-full py-24">
+    <section className="w-full py-24 md:py-16">
       <div className="max-w-5xl w-full px-4 md:px-6 mx-auto">
         <div className=" flex flex-col md:flex-row justify-between items-center mt-12">
           <div className="w-full md:w-6/12 md:pr-6">
