@@ -76,7 +76,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="w-full relative">
+    <section className="w-full relative" id="form">
       <img
         className="w-full h-full object-cover absolute top-0 left-0 -z-10"
         alt="background"
