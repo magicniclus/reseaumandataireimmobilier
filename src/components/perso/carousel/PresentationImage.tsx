@@ -20,7 +20,7 @@ const PresentationImage = () => {
   const plugin = useRef<any>(Autoplay({ delay: 3000 }));
 
   return (
-    <section className="w-full py-24">
+    <section className="w-full py-24 md:py-16">
       <div className="max-w-5xl w-full px-4 md:px-6 mx-auto">
         <h2 className="text-2xl text-slate-700 font-bold mx-auto text-center">
           Votre rénovation énergetique en toute simplicité
