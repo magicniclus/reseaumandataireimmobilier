@@ -13,7 +13,7 @@ const Beneficies = () => {
               alt="Financement"
             />
           </div>
-          <div className="w-full md:w-6/12 md:pl-6 flex flex-col justify-between">
+          <div className="w-full md:w-6/12 md:pl-6 flex flex-col justify-between mt-12 md:mt-0">
             <h2 className="text-2xl text-slate-700 font-bold">
               Obtenez un financement pour vos rénovations à{" "}
               <span className="text-yellow">0% d&apos;intérêt**</span>
