@@ -33,7 +33,7 @@ const incentives = [
 const Engagements = () => {
   return (
     <div className="bg-white">
-      <div className="mx-auto max-w-5xl px-4 py-24 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-5xl px-4 py-24 md:py-16 sm:px-6 lg:px-8">
         <div className="rounded-2xl bg-gray-50 px-6 py-16 sm:p-16">
           <div className="mx-auto max-w-xl lg:max-w-none">
             <div className="text-center">
