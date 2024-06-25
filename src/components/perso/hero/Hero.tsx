@@ -82,7 +82,7 @@ const Hero = () => {
         alt="background"
         src="/background.png"
       />
-      <div className="w-full max-w-5xl mx-auto px-4 md:px-6 py-20 flex flex-col md:flex-row justify-between items-center text-slate-700 z-20">
+      <div className="w-full max-w-5xl mx-auto px-4 md:px-6 py-24 md:py-16 flex flex-col md:flex-row justify-between items-center text-slate-700 z-20">
         <div className="flex flex-col justify-center w-full md:w-1/2 pr-4 text-white">
           <h1 className="text-3xl font-bold">
             Jusqu’à <span className="text-yellow-500">75€ d’aides par m2</span>{" "}
