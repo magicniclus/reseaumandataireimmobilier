@@ -157,7 +157,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col items-end w-full md:w-1/2 mt-10 md:mt-0">
+        <div className="flex flex-col items-end w-full md:w-1/2 mt-12 md:mt-0">
           <form
             onSubmit={handleSubmit}
             className="bg-white rounded-lg p-5 md:p-10 w-full md:w-[90%]"
