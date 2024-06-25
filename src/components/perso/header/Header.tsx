@@ -10,11 +10,11 @@ const Header = () => {
           alt="eco nouvelle aquitaine"
           className="h-12 w-auto"
         />
-        <div className=" p-2 flex bottom-0 right-0 fixed md:relative items-center z-10 md:bg-white bg-slate-50 md:w-max w-full justify-center">
+        <div className=" p-6 md:p-2 flex bottom-0 right-0 fixed md:relative items-center z-10 md:bg-white bg-slate-200 md:w-max w-full justify-center">
           <PhoneIcon className="h-8 w-auto" />
-          <div className="flex flex-col md:ml-2">
+          <div className="flex flex-col ml-2">
             <p className="font-bold">
-              Contactez-nous <a>09 58 63 63 25</a>
+              Contactez-nous <a className="text-green-700">09 58 63 63 25</a>
             </p>
             <p className="text-slate-400 text-xs">
               6/7j de 8h à 19h - Prix d’un appel local
