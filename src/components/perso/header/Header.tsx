@@ -14,7 +14,7 @@ const Header = () => {
           <PhoneIcon className="h-8 w-auto" />
           <div className="flex flex-col ml-2">
             <p className="font-bold">
-              Contactez-nous <a className="text-green-700">09 58 63 63 25</a>
+              Contactez-nous <a className="text-blue-500">09 58 63 63 25</a>
             </p>
             <p className="text-slate-400 text-xs">
               6/7j de 8h à 19h - Prix d’un appel local
