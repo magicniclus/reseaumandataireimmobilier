@@ -99,7 +99,7 @@ const Hero = () => {
             <p className="">
               Isolation faite par des{" "}
               <span className="font-bold">artisans RGE</span> qui garantissent
-              une parfaite
+              une parfaite{" "}
               <span className="font-bold">isolation thermique</span>.
             </p>
           </div>
