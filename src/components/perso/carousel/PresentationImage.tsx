@@ -76,7 +76,10 @@ const PresentationImage = () => {
               </li>
             </ul>
           </div>
-          <Carousel plugins={[plugin.current]} className="w-full md:w-6/12">
+          <Carousel
+            plugins={[plugin.current]}
+            className="w-full md:w-6/12 mt-12 md:mt-0"
+          >
             <CarouselContent className="w-full">
               {images.map((_, index) => (
                 <CarouselItem key={index} className="w-full">
