@@ -42,7 +42,7 @@ const Financement = () => {
             Demandez votre estimation
           </a>
         </div>
-        <div className="w-full md:w-1/2 relative flex flex-col">
+        <div className="w-full md:w-1/2 relative flex flex-col mt-12 md:mt-0">
           <img
             src="/ptz.png"
             alt="Eco-prêt"
