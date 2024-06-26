@@ -17,6 +17,9 @@ bun dev
 ## .Env
 
 ```bash
+
+Creer un fichier .env.local
+# and
 NEXT_PUBLIC_SENDGRID_API_KEY
 # and
 NEXT_PUBLIC_FIREBASE_API_KEY
