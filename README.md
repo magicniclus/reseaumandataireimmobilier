@@ -16,5 +16,27 @@ bun dev
 
 ## .Env
 
+```bash
 NEXT_PUBLIC_SENDGRID_API_KEY
+# and
 NEXT_PUBLIC_FIREBASE_API_KEY
+```
+
+## Clone project
+
+```bash
+Aller sur le dossier du projet créer
+
+git clone https://github.com/magicniclus/landingpage.git .
+
+git remote rm origin
+
+git remote add origin url_de_votre_nouveau_repo
+
+git add .
+
+git commit -m "Initial commit: Clone landingPage template"
+
+git push -u origin main
+
+```
