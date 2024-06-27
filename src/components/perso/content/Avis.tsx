@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import {
@@ -95,13 +96,20 @@ const Avis = () => {
                 className="pl-1 md:basis-1/2 lg:basis-1/3"
               >
                 <div className="p-1 px-3 flex flex-col items-center">
-                  <div>
+                  <div className="flex justify-between w-full">
                     <div className="flex items-center">
                       <StarIcon className="h-5 w-5 text-yellow-400" />
                       <StarIcon className="h-5 w-5 text-yellow-400" />
                       <StarIcon className="h-5 w-5 text-yellow-400" />
                       <StarIcon className="h-5 w-5 text-yellow-400" />
                       <StarIcon className="h-5 w-5 text-yellow-400" />
+                    </div>
+                    <div className="p-1 rounded-full bg-white shadow-lg">
+                      <img
+                        src="/google.png"
+                        alt="avis google"
+                        className="w-5 h-5 objet-cover"
+                      />
                     </div>
                   </div>
                   <div className="text-center text-sm mt-2">
