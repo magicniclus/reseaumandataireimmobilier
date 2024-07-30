@@ -4,7 +4,7 @@ import { PhoneIcon } from "@heroicons/react/20/solid";
 const Header = () => {
   return (
     <header className="w-full">
-      <nav className="max-w-5xl w-full mx-auto px-4 md:px-6 py-5 flex justify-between text-slate-900">
+      <nav className="max-w-7xl w-full mx-auto px-4 md:px-6 py-5 flex justify-between text-slate-900">
         <img
           src="/logo.png"
           alt="eco nouvelle aquitaine"
