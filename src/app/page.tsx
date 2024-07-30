@@ -1,11 +1,5 @@
 "use client";
 
-import PresentationImage from "@/components/perso/carousel/PresentationImage";
-import Avis from "@/components/perso/content/Avis";
-import Beneficies from "@/components/perso/content/Beneficies";
-import Engagements from "@/components/perso/content/Engagements";
-import Financement from "@/components/perso/content/Financement";
-import FinancementDetails from "@/components/perso/content/FinancementDetails";
 import Footer from "@/components/perso/footer/Footer";
 import Hero from "@/components/perso/hero/Hero";
 import { useEffect } from "react";
@@ -38,12 +32,6 @@ export default function Home() {
       <Header />
       <main className="w-full min-h-screen">
         <Hero />
-        <PresentationImage />
-        <Engagements />
-        <Financement />
-        <Beneficies />
-        <Avis />
-        <FinancementDetails />
       </main>
       <Footer />
     </>
