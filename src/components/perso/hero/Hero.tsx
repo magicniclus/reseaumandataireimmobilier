@@ -79,21 +79,21 @@ const Hero = () => {
         {/* <BackgroundBeams /> */}
         <div className="flex flex-col justify-center w-full md:w-1/2 pr-4 text-white">
           <div className="text-5xl flex flex-col font-bold leading-[60px] relative">
-            {/* <div className="-z-5 p-1 rounded-full bg-slate-100 shadow-md w-max absolute -right-3 top-40 w-36 h-36 hidden md:block">
+            {/* <div className="-z-5 p-1 rounded-full bg-slate-100 shadow-md w-max absolute right-10 top-28 w-36 h-36 hidden md:block">
               <img
                 src="https://plus.unsplash.com/premium_photo-1679856789368-c6fd143693b5?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZXN0YXRlJTIwYWdlbnR8ZW58MHx8MHx8fDA%3D"
                 alt="maison au bord du lac"
                 className="w-full h-full rounded-full object-cover"
               />
             </div>
-            <div className="-z-5 p-1 rounded-full bg-slate-100 shadow-md w-max absolute -left-2 -bottom-16 w-24 h-24 hidden md:block">
+            <div className="-z-5 p-1 rounded-full bg-slate-100 shadow-md w-max absolute left-2 -bottom-24 w-24 h-24 hidden md:block">
               <img
                 src="https://images.pexels.com/photos/8293778/pexels-photo-8293778.jpeg?auto=compress&cs=tinysrgb&w=800"
                 alt="Remise de clé"
                 className="w-full h-full rounded-full object-cover"
               />
-            </div>
-            <div className="-z-5 p-1 w-max absolute left-20 -top-16 w-24 h-24 hidden md:block">
+            </div> */}
+            {/* <div className="-z-5 p-1 w-max absolute left-20 -top-16 w-24 h-24 hidden md:block">
               <img
                 src="/fuse.png"
                 alt="fusé"
@@ -101,7 +101,7 @@ const Hero = () => {
               />
             </div> */}
             <div className="mb-3 md:mb-0">
-              <BlurIn word="🚀 Rejoignez la" />
+              <BlurIn word="Rejoignez la" />
             </div>
             <span className="text-blue-700 font-extrabold">
               <BlurIn word="meilleur équipe" />
@@ -120,7 +120,7 @@ const Hero = () => {
         >
           <form
             onSubmit={handleSubmit}
-            className="bg-white rounded-lg p-5 md:p-10 w-full md:w-11/12"
+            className="bg-white rounded-lg p-5 md:p-10 md:py-16 w-full md:w-10/12"
           >
             <Input
               name="name"
