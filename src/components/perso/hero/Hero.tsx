@@ -104,13 +104,13 @@ const Hero = () => {
               <BlurIn word="Rejoignez la" />
             </div>
             <span className="text-blue-700 font-extrabold">
-              <BlurIn word="meilleur équipe" />
+              <BlurIn word="Meilleur équipe" />
             </span>{" "}
             <div className="my-3 md:my-0">
-              <BlurIn word="au sein du" />
+              <BlurIn word="Au sein du" />
             </div>
             <span className="text-blue-700 font-extrabold">
-              <BlurIn word="meilleur reseau" />
+              <BlurIn word="Meilleur reseau" />
             </span>
           </div>
         </div>
