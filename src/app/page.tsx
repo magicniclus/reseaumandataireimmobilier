@@ -1,5 +1,12 @@
 "use client";
 
+import FAQ from "@/components/perso/content/FAQ";
+import Featurs from "@/components/perso/content/Features";
+import LeftImageContainer from "@/components/perso/content/LeftImageContainer";
+import Offre from "@/components/perso/content/Offre";
+import Outils from "@/components/perso/content/Outils";
+import Stats from "@/components/perso/content/Stats";
+import Video from "@/components/perso/content/Video";
 import Footer from "@/components/perso/footer/Footer";
 import Hero from "@/components/perso/hero/Hero";
 import { useEffect } from "react";
@@ -32,6 +39,21 @@ export default function Home() {
       <Header />
       <main className="w-full min-h-screen">
         <Hero />
+        <Offre />
+        <h2 className="text-5xl font-bold tracking-tight text-slate-900 text-center leading-[3rem] mt-14 max-w-7xl mx-auto">
+          Devenir
+          <span className="relative inline-block">
+            <span className=" absolute -inset-0 w-[100%] h-full "></span>
+            <span className="relative ">conseiller immobilier </span>
+          </span>{" "}
+          indépendant eXp c’est :
+        </h2>
+        <LeftImageContainer />
+        <Video />
+        <Outils />
+        <Featurs />
+        <Stats />
+        <FAQ />
       </main>
       <Footer />
     </>
