@@ -65,7 +65,7 @@ const Hero = () => {
     <section className="w-full relative" id="form">
       <div className="absolute inset-0 -z-5">
         <img
-          src="https://images.pexels.com/photos/6297086/pexels-photo-6297086.jpeg?auto=compress&cs=tinysrgb&w=800"
+          src="https://images.pexels.com/photos/8815884/pexels-photo-8815884.jpeg?auto=compress&cs=tinysrgb&w=800"
           alt="fusé"
           className="w-full h-[70%] opacity-10 object-cover"
         />
