@@ -18,7 +18,7 @@ const Header = () => {
           <div className="flex flex-col ml-2">
             <div className="relative">
               <p className="font-bold">
-                Contactez-nous <a className="text-blue-700">09 58 63 63 25</a>
+                Contactez-nous <a className="text-slate-700">09 58 63 63 25</a>
               </p>
               {/* <div className="w-[125px] h-7 -right-1 -top-1 absolute bg-blue-500 transform -rotate-1 -z-10" /> */}
             </div>
