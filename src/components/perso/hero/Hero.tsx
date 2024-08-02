@@ -15,11 +15,14 @@ const Hero = () => {
     name: "",
     phone: "",
     email: "",
+    experience: "",
   });
 
   const router = useRouter();
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>
+  ) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
@@ -71,36 +74,9 @@ const Hero = () => {
         />
       </div>
       <div className=" bg-slate-900 w-full h-[70%] absolute inset-0 -z-10"></div>
-      {/* <img
-        className="w-full h-full object-cover absolute top-0 left-0 -z-10"
-        alt="background"
-        src="/background.png"
-      /> */}
       <div className="w-full max-w-7xl mx-auto px-4 md:px-6 py-20 md:py-32 flex flex-col md:flex-row justify-between text-slate-700 z-20">
-        {/* <BackgroundBeams /> */}
         <div className="flex flex-col w-full md:w-1/2 pr-4 text-white">
           <div className="text-5xl flex flex-col font-bold leading-[60px] relative">
-            {/* <div className="-z-5 p-1 rounded-full bg-slate-100 shadow-md w-max absolute right-10 top-28 w-36 h-36 hidden md:block">
-              <img
-                src="https://plus.unsplash.com/premium_photo-1679856789368-c6fd143693b5?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZXN0YXRlJTIwYWdlbnR8ZW58MHx8MHx8fDA%3D"
-                alt="maison au bord du lac"
-                className="w-full h-full rounded-full object-cover"
-              />
-            </div>
-            <div className="-z-5 p-1 rounded-full bg-slate-100 shadow-md w-max absolute left-2 -bottom-24 w-24 h-24 hidden md:block">
-              <img
-                src="https://images.pexels.com/photos/8293778/pexels-photo-8293778.jpeg?auto=compress&cs=tinysrgb&w=800"
-                alt="Remise de clé"
-                className="w-full h-full rounded-full object-cover"
-              />
-            </div> */}
-            {/* <div className="-z-5 p-1 w-max absolute left-20 -top-16 w-24 h-24 hidden md:block">
-              <img
-                src="/fuse.png"
-                alt="fusé"
-                className="w-full h-full object-cover"
-              />
-            </div> */}
             <div className="mb-3 md:mb-0">
               <BlurIn
                 word=" Quand on est indépendant dans la vie, pourquoi ne pas l'être aussi
@@ -111,15 +87,6 @@ const Hero = () => {
                 className="text-lg font-light mt-5"
               />
             </div>
-            {/* <span className="text-blue-700 font-extrabold">
-              <BlurIn word="Meilleur équipe" />
-            </span>{" "}
-            <div className="my-3 md:my-0">
-              <BlurIn word="Au sein du" />
-            </div>
-            <span className="text-blue-700 font-extrabold">
-              <BlurIn word="Meilleur reseau" />
-            </span> */}
           </div>
         </div>
         <div
@@ -157,6 +124,21 @@ const Hero = () => {
               onChange={handleChange}
               required
             />
+            <select
+              name="experience"
+              className="mt-5 w-full border rounded-md p-2"
+              value={formData.experience}
+              onChange={handleChange}
+              required
+            >
+              <option value="" disabled>
+                Avez-vous une expérience dans l&apos;immobilier ?
+              </option>
+              <option value="je debute">Je débute</option>
+              <option value="moins d'un an">Moins d&apos;un an</option>
+              <option value="entre 2 et 5 ans">Entre 2 et 5 ans</option>
+              <option value="plus de 5 ans">Plus de 5 ans</option>
+            </select>
             <p className="text-xs mt-5">Les champs avec * sont obligatoires</p>
             <Button
               type="submit"
