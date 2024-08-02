@@ -6,9 +6,9 @@ const Offre = () => {
           Découvrez une toute nouvelle facon de faire de l’immobilier
         </h2>
         <p className="mt-10 text-lg text-center">
-          Que vous soyez un agent immobilier débutant ou expérimenté,
-          l&apos;équipe <span className="font-bold">Reseau</span> d&apos;eXp
-          vous offre une opportunité unique de développer votre activité et de{" "}
+          Que vous soyez un agent immobilier débutant ou expérimenté, la team{" "}
+          <span className="font-bold">Reseau</span> d&apos;eXp vous offre une
+          opportunité unique de développer votre activité et de{" "}
           <span className="font-bold">maximiser vos revenus</span>. En
           rejoignant notre équipe, vous bénéficierez d&apos;avantages exclusifs
           spécialement conçus pour vous aider à atteindre vos objectifs
