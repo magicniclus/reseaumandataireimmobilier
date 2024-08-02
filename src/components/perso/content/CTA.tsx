@@ -6,7 +6,7 @@ export default function CTA() {
           <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
             Devenez libre
             <br />
-            Commencez votre activité dans les meilleuirs conditions
+            Commencez votre activité dans les meilleurs conditions
           </h2>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <a
