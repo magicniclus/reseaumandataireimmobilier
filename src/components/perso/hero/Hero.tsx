@@ -84,7 +84,7 @@ const Hero = () => {
               dans son travail ?"
               />
               <BlurIn
-                word="Transformez votre vie en apprenant le métier de mandataire en immobilier et devenez votre propre patron."
+                word="Transformez votre vie en devenant mandataire immobilier indépendant avec eXp Realty."
                 className="text-lg font-light mt-5"
               />
             </div>
@@ -145,7 +145,7 @@ const Hero = () => {
               type="submit"
               className="mt-5 bg-yellow-500 hover:bg-yellow-500/70 w-full"
             >
-              Nous rejoindre
+              Rejoignez-nous maintenant !
             </Button>
             <p className="text-[10px] mt-5">
               Les données que vous transmettez sont traitées par
