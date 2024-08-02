@@ -43,10 +43,10 @@ export default function Home() {
         <Hero />
         <Offre />
         <h2 className="text-5xl font-bold tracking-tight text-slate-900 text-center leading-[3rem] mt-14 max-w-7xl mx-auto">
-          Devenir
+          Devenir{" "}
           <span className="relative inline-block">
             <span className=" absolute -inset-0 w-[100%] h-full "></span>
-            <span className="relative ">conseiller immobilier </span>
+            <span className="relative ">conseiller immobilier </span>{" "}
           </span>{" "}
           indépendant eXp c’est :
         </h2>
