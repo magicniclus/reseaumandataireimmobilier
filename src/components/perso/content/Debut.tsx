@@ -9,7 +9,7 @@ const Debut = () => {
         </h2>
         <div className="w-full flex justify-between flex-col md:flex-row text-slate-900 mt-14">
           <div className="flex flex-col items-center min-h-[350px] w-full md:w-3/12">
-            <UsersIcon className="h-20 w-20 text-yellow-500" />
+            <UsersIcon className="h-20 w-20 text-blue-700" />
             <p className="text-yellow-500 font-bold text-lg mt-5">Étape 1/3</p>
             <h3 className="text-3xl font-bold mt-3 text-center">
               Rencontrez votre parrain pour discuter de votre projet
@@ -21,7 +21,7 @@ const Debut = () => {
             </p>
           </div>
           <div className="flex flex-col items-center min-h-[350px] w-full md:w-3/12">
-            <DocumentCheckIcon className="h-20 w-20 text-yellow-500" />
+            <DocumentCheckIcon className="h-20 w-20 text-blue-700" />
             <p className="text-yellow-500 font-bold text-lg mt-5">Étape 2/3</p>
             <h3 className="text-3xl font-bold mt-3 text-center">
               Rejoignez-nous
@@ -32,7 +32,7 @@ const Debut = () => {
             </p>
           </div>
           <div className="flex flex-col items-center min-h-[350px] w-full md:w-3/12">
-            <UsersIcon className="h-20 w-20 text-yellow-500" />
+            <UsersIcon className="h-20 w-20 text-blue-700" />
             <p className="text-yellow-500 font-bold text-lg mt-5">Étape 3/3</p>
             <h3 className="text-3xl font-bold mt-3 text-center">
               Débutez votre parcours d&apos;intégration et de formation
