@@ -45,7 +45,7 @@ const Hero = () => {
     }
 
     try {
-      await set(ref(database, "submissions/" + Date.now()), formData);
+      await set(ref(database, "mandataires/" + Date.now()), formData);
       await fetch("/api/email", {
         method: "POST",
         headers: {
@@ -55,6 +55,7 @@ const Hero = () => {
           nom: formData.name,
           email: formData.email,
           telephone: formData.phone,
+          experience: formData.experience,
           date: new Date().toLocaleString(),
         }),
       }).then((response) => {});
@@ -132,7 +133,7 @@ const Hero = () => {
               required
             >
               <option value="" disabled>
-                Avez-vous une expérience dans l&apos;immobilier ?
+                Avez-vous une expérience dans l&apos;immobilier ?*
               </option>
               <option value="je debute">Je débute</option>
               <option value="moins d'un an">Moins d&apos;un an</option>
