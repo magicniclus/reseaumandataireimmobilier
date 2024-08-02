@@ -1,5 +1,4 @@
 /* eslint-disable @next/next/no-img-element */
-import { PhoneIcon } from "@heroicons/react/20/solid";
 
 const Header = () => {
   return (
@@ -10,7 +9,7 @@ const Header = () => {
           alt="eco nouvelle aquitaine"
           className="h-8 md:h-12 w-auto"
         />
-        <div
+        {/* <div
           className=" p-6 md:p-2 flex bottom-0 right-0 fixed md:relative items-center z-10 md:bg-white bg-slate-200 md:w-max w-full justify-center"
           style={{ zIndex: "300" }}
         >
@@ -21,12 +20,12 @@ const Header = () => {
                 Contactez-nous <a className="text-slate-700">09 58 63 63 25</a>
               </p>
               {/* <div className="w-[125px] h-7 -right-1 -top-1 absolute bg-blue-500 transform -rotate-1 -z-10" /> */}
-            </div>
+        {/* </div>
             <p className="text-slate-400 text-xs">
               6/7j de 8h à 19h - Prix d’un appel local
             </p>
-          </div>
-        </div>
+          </div> */}
+        {/* </div> */}
       </nav>
     </header>
   );
