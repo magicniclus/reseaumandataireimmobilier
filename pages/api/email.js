@@ -23,7 +23,7 @@ export default async (req, res) => {
     const msg = {
       to: "casteranicolas.contact@gmail.com", // Assurez-vous que cette adresse est valide
       from: "nouveaucontact@prospect-manager.fr",
-      subject: "Nouveau prospect du site: le site",
+      subject: "Nouveau prospect du site: Reseau-Mandataire-Immobilier.com",
       html: emailContent,
     };
 
