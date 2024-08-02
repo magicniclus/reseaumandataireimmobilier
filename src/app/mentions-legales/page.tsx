@@ -9,24 +9,23 @@ const page = () => {
         -{" "}
         <div className="mx-auto max-w-5xl  px-6 lg:px-8 pb-10">
           <h1 className="text-3xl font-bold tracking-tight text-gray-800 sm:text-4xl  mt-16">
-            Mentions Légales de Eco Nouvelle Aquitaine
+            Mentions Légales de Reseau-mandataire-immobilier
           </h1>
           <h2 className="text-2xl font-bold tracking-tight text-gray-800 sm:text-3xl  mt-16">
             Informations Générales
           </h2>
           <p className="text-nomral font-normal mt-5">
-            Le présent site web, accessible à l&apos;adresse www.terabois.fr,
-            est la propriété de TeraBois, une entreprise spécialisée dans la
-            rénovation de l&apos;habitat basée à Bordeaux.
+            Le présent site web, accessible à l&apos;adresse
+            www.Reseau-mandataire-immobilier.fr, est la propriété de Nicolas
+            CASTEA agent mandataire eXp.
           </p>
           <p className="text-nomral font-normal mt-5">
-            TeraBois est une SASU dont le siège social est situé à 36 avenue
-            Francois Mitterrand 33270 Floirac, inscrite au registre du commerce
-            et des sociétés de Bordeaux sous le numéro 848 564 464 00016.
+            Nicolas CASTEA est une autoentreprise dont le siège social est situé
+            à 22 rue de libourne 33270 Bordeaux.
           </p>
           <p className="text-nomral font-normal mt-5">
-            Téléphone : 06 49 23 13 80 <br />
-            Email : contact@terabois.fr
+            Téléphone : 06 31 42 00 45 <br />
+            Email : contact@Reseau-mandataire-immobilier.fr
           </p>
           <p className="text-nomral font-normal mt-5">
             Directeur de la publication : Mr Castera{" "}
@@ -42,9 +41,10 @@ const page = () => {
             Propriété Intellectuelle
           </h2>
           <p className="text-nomral font-normal mt-5">
-            Tous les éléments du site web de TeraBois, y compris les textes,
-            graphiques, logos, images, photographies, vidéos, sons, sont la
-            propriété exclusive de TeraBois, sauf indication contraire. Ces
+            Tous les éléments du site web de Reseau-mandataire-immobilier, y
+            compris les textes, graphiques, logos, images, photographies,
+            vidéos, sons, sont la propriété exclusive de
+            Reseau-mandataire-immobilier, sauf indication contraire. Ces
             éléments sont protégés par les lois françaises et les textes
             internationaux relatifs au respect des droits d&apos;auteur et de la
             propriété intellectuelle.
@@ -53,32 +53,35 @@ const page = () => {
             La reproduction et l&apos;utilisation de ces éléments ne sont
             autorisées qu&apos;à des fins d&apos;information pour un usage
             personnel et privé. Toute autre utilisation est expressément
-            interdite sans l&apos;autorisation préalable écrite de TeraBois.
+            interdite sans l&apos;autorisation préalable écrite de
+            Reseau-mandataire-immobilier.
           </p>
           <h2 className="text-2xl font-bold tracking-tight text-gray-800 sm:text-3xl  mt-16">
             Limitation de responsabilité
           </h2>
           <p className="text-nomral font-normal mt-5">
-            TeraBois s&apos;efforce d&apos;assurer au mieux de ses possibilités
-            l&apos;exactitude et la mise à jour des informations diffusées sur
-            son site. Toutefois, TeraBois ne peut garantir l&apos;exactitude, la
+            Reseau-mandataire-immobilier s&apos;efforce d&apos;assurer au mieux
+            de ses possibilités l&apos;exactitude et la mise à jour des
+            informations diffusées sur son site. Toutefois,
+            Reseau-mandataire-immobilier ne peut garantir l&apos;exactitude, la
             précision ou l&apos;exhaustivité des informations disponibles sur ce
             site.
           </p>
           <p className="text-nomral font-normal mt-5">
-            TeraBois n&apos;est pas responsable des éventuelles erreurs,
-            d&apos;une absence de disponibilité des informations, ainsi que de
-            la présence de virus sur son site. En aucun cas, TeraBois ne peut
-            être tenu responsable des dommages directs ou indirects résultant de
+            Reseau-mandataire-immobilier n&apos;est pas responsable des
+            éventuelles erreurs, d&apos;une absence de disponibilité des
+            informations, ainsi que de la présence de virus sur son site. En
+            aucun cas, Reseau-mandataire-immobilier ne peut être tenu
+            responsable des dommages directs ou indirects résultant de
             l&apos;utilisation de son site web.
           </p>
           <h2 className="text-2xl font-bold tracking-tight text-gray-800 sm:text-3xl  mt-16">
             Modification des mentions légales
           </h2>
           <p className="text-nomral font-normal mt-5">
-            TeraBois se réserve le droit de modifier les présentes mentions
-            légales à tout moment. L&apos;utilisateur est donc invité à les
-            consulter régulièrement.
+            Reseau-mandataire-immobilier se réserve le droit de modifier les
+            présentes mentions légales à tout moment. L&apos;utilisateur est
+            donc invité à les consulter régulièrement.
           </p>
           <h2 className="text-2xl font-bold tracking-tight text-gray-800 sm:text-3xl  mt-16">
             Droit applicable
