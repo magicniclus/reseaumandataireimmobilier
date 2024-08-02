@@ -11,7 +11,7 @@ const LeftImageContainer = () => {
             <p className="mt-8">
               Être <span className="font-bold">conseiller immobilier</span>,
               c’est jouer un rôle central dans les projets de vie des gens :
-              guider, orienter et conseiller. Ce rôle
+              guider, orienter et conseiller. Ce rôle{" "}
               <span className="font-bold">indispensable</span> apporte une
               dimension significative à votre activité quotidienne !
             </p>
@@ -83,9 +83,9 @@ const LeftImageContainer = () => {
               Apprendre et Être Accompagné
             </h3>
             <p className="mt-8">
-              Que vous soyez novice ou expérimenté dans l&apos;immobilier, chez
+              Que vous soyez novice ou expérimenté dans l&apos;immobilier, chez{" "}
               <span className="font-bold">eXp</span>, vous bénéficiez d&apos;un
-              accompagnement et d&apos;une formation continus. Des bases du
+              accompagnement et d&apos;une formation continue. Des bases du
               métier aux <span className="font-bold">compétences avancées</span>
               , vous apprenez et vous perfectionnez tout au long de
               <span className="font-bold">votre carrière</span> !
