@@ -8,7 +8,7 @@ sgMail.setApiKey(process.env.NEXT_PUBLIC_SENDGRID_API_KEY);
 
 export default async (req, res) => {
   try {
-    const { nom, codePostal, telephone, email, type } = req.body;
+    const { nom, codePostal, telephone, email, experience } = req.body;
 
     const emailContent = ReactDOMServer.renderToString(
       <EmailTemplate
@@ -16,7 +16,7 @@ export default async (req, res) => {
         codePostal={codePostal}
         telephone={telephone}
         email={email}
-        type={type}
+        experience={experience}
       />
     );
 
