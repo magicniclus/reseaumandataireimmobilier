@@ -1,5 +1,7 @@
 "use client";
 
+import CTA from "@/components/perso/content/CTA";
+import Debut from "@/components/perso/content/Debut";
 import FAQ from "@/components/perso/content/FAQ";
 import Featurs from "@/components/perso/content/Features";
 import LeftImageContainer from "@/components/perso/content/LeftImageContainer";
@@ -50,10 +52,12 @@ export default function Home() {
         </h2>
         <LeftImageContainer />
         <Video />
+        <Debut />
         <Outils />
         <Featurs />
         <Stats />
         <FAQ />
+        <CTA />
       </main>
       <Footer />
     </>
