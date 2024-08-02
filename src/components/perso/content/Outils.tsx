@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable @next/next/no-img-element */
 const Outils = () => {
   return (
@@ -7,11 +8,11 @@ const Outils = () => {
           Rejoignez la Team Réseau d&apos;eXp et Boostez Votre Carrière
           Immobilière!
         </h2>
-        <div className="w-full flex justify-between items-center mt-16">
-          <div className="w-1/2">
+        <div className="w-full flex justify-between items-center flex-col md:flex-row mt-16">
+          <div className="w-full md:w-1/2">
             <img src="/mac.png" className="w-[90%] h-auto" />
           </div>
-          <div className="w-1/2">
+          <div className="w-full md:w-1/2 mt-14 md:mt-0">
             <h3 className="text-2xl text-slate-900 font-bold">
               Avenue-Immo – Génération de demande d&apos;estimation Ultra
               Performante
