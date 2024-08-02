@@ -9,7 +9,7 @@ interface EmailTemplateProps {
   codePostal: string;
   email: string;
   telephone: string;
-  type: string;
+  experience: string;
 }
 
 // Ajout du formatage pour inclure l'heure
@@ -20,7 +20,7 @@ export const EmailTemplate: React.FC<EmailTemplateProps> = ({
   codePostal,
   telephone,
   email,
-  type,
+  experience,
 }) => {
   const styles = {
     container: {
@@ -70,14 +70,20 @@ export const EmailTemplate: React.FC<EmailTemplateProps> = ({
       Code postal : {codePostal} <br />
       Téléphone : {telephone} <br />
       Email : {email} <br />
-      Type de contrat : {type} <br />
+      experience : {experience} <br />
       Origine: \\nom du site web
       {/* Signature Section */}
       <div style={styles.signature as React.CSSProperties}>
-        <img src="/logo.png" alt="Logo de l'Entreprise" style={styles.logo} />
+        <img
+          src="/logo.png"
+          alt="reseau-mandataire-immobilier"
+          style={styles.logo}
+        />
         <p style={styles.signatureText}>
           Email :{" "}
-          <a href="mailto:email de l'entreprise">contact@email-entreprise.fr</a>{" "}
+          <a href="mailto:reseau-mandataire-immobilier">
+            contact@reseau-mandataire-immoiblier.fr
+          </a>{" "}
           <br />
           {/* Téléphone : <a href="tel:0956342341">0956342341</a> */}
         </p>
