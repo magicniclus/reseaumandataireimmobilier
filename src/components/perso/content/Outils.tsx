@@ -4,7 +4,7 @@ const Outils = () => {
     <div className="bg-slate-50">
       <div className="mx-auto max-w-5xl px-4 py-24 md:py-16 sm:px-6 lg:px-8">
         <h2 className="text-5xl font-bold tracking-tight text-slate-900 text-center leading-[3rem]">
-          Rejoignez l&apos;Équipe Réseau d&apos;eXp et Boostez Votre Carrière
+          Rejoignez la Team Réseau d&apos;eXp et Boostez Votre Carrière
           Immobilière!
         </h2>
         <div className="w-full flex justify-between items-center mt-16">
