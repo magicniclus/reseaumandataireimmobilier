@@ -71,7 +71,7 @@ export const EmailTemplate: React.FC<EmailTemplateProps> = ({
       Téléphone : {telephone} <br />
       Email : {email} <br />
       experience : {experience} <br />
-      Origine: \\nom du site web
+      Origine: reseau-mandataire-immobilier.fr
       {/* Signature Section */}
       <div style={styles.signature as React.CSSProperties}>
         <img
