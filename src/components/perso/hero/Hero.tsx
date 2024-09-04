@@ -144,6 +144,7 @@ const Hero = () => {
             <Button
               type="submit"
               className="mt-5 bg-yellow-500 hover:bg-yellow-500/70 w-full"
+              id="submit"
             >
               <span className="text-xl mr-1">🚀 </span> Rejoignez-nous
               maintenant !
