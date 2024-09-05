@@ -45,7 +45,27 @@ const Hero = () => {
     }
 
     try {
-      await set(ref(database, "mandataires/" + Date.now()), formData);
+      // Get the current date and time in French
+      const currentDateTime = new Date().toLocaleString("fr-FR", {
+        weekday: "long",
+        year: "numeric",
+        month: "long",
+        day: "numeric",
+        hour: "numeric",
+        minute: "numeric",
+        second: "numeric",
+      });
+
+      // Add the date and time to the formData
+      const formDataWithDate = {
+        ...formData,
+        dateAjout: currentDateTime,
+      };
+
+      // Save the data to Firebase
+      await set(ref(database, "mandataires/" + Date.now()), formDataWithDate);
+
+      // Send the data via fetch to your API
       await fetch("/api/email", {
         method: "POST",
         headers: {
@@ -56,9 +76,11 @@ const Hero = () => {
           email: formData.email,
           telephone: formData.phone,
           experience: formData.experience,
-          date: new Date().toLocaleString(),
+          date: currentDateTime, // Use the same date and time
         }),
-      }).then((response) => {});
+      });
+
+      // Redirect the user after the process is complete
       router.push("/merci");
     } catch (error) {
       console.error("Error saving data to Firebase:", error);
