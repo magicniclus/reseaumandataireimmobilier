@@ -1,7 +1,4 @@
 /* eslint-disable @next/next/no-img-element */
-
-"use client";
-
 import BlurIn from "@/components/magicui/blur-in";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -18,6 +15,7 @@ const Hero = () => {
     experience: "",
   });
 
+  const [loading, setLoading] = useState(false); // Add a loading state
   const router = useRouter();
 
   const handleChange = (
@@ -29,6 +27,7 @@ const Hero = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    setLoading(true); // Disable the button
 
     // Regex validations
     const nameRegex = /^[a-zA-Z\s]{2,}$/;
@@ -41,6 +40,7 @@ const Hero = () => {
       !emailRegex.test(formData.email)
     ) {
       alert("Veuillez remplir tous les champs correctement.");
+      setLoading(false); // Re-enable the button in case of validation error
       return;
     }
 
@@ -84,6 +84,7 @@ const Hero = () => {
       router.push("/merci");
     } catch (error) {
       console.error("Error saving data to Firebase:", error);
+      setLoading(false); // Re-enable the button in case of error
     }
   };
 
@@ -167,6 +168,7 @@ const Hero = () => {
               type="submit"
               className="mt-5 bg-yellow-500 hover:bg-yellow-500/70 w-full"
               id="submit"
+              disabled={loading} // Disable the button if loading
             >
               <span className="text-xl mr-1">🚀 </span> Rejoignez-nous
               maintenant !
